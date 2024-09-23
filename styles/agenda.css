@@ -1,0 +1,61 @@
+.agenda {
+  background-color: var(--fundo);
+}
+
+.agenda-dia {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.agenda-dia-titulo {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--preto);
+  padding: 10px 0;
+}
+
+.agenda-dia-remota {
+  height: 170px;
+  border-radius: 8px;
+  background-color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.agenda-dia-remota-perfil {
+  display: flex;
+}
+
+.agenda-dia-remota-perfil-imagem {
+  width: 32px;
+  border-radius: 32px;
+}
+
+.agenda-dia-remota-perfil-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 15px;
+}
+
+.agenda-dia-remota-perfil-info-nome {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--preto);
+}
+
+.agenda-dia-remota-perfil-info-tipo {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.agenda-dia-remota-perfil-info-tipo-icone {
+  margin-right: 5px;
+}
+
+.agenda-dia-remota-perfil-chat {
+  
+}

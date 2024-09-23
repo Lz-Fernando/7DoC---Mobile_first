@@ -1,0 +1,22 @@
+@import url(styles/reset.css);
+@import url(styles/header.css);
+@import url(styles/agenda.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --fonte: "montserrat";
+  --cinza: #A3A3A3;
+  --preto: #464646;
+  --azul: #4894FF;
+  --laranja: #FFB050;
+  --branco: #ffffff;
+  --fundo: #f7f8ff;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 20px;
+    background-color: var(--fundo);
+    font-family: var(--fonte);
+  }
+}
