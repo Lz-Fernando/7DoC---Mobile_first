@@ -13,10 +13,8 @@
   --fundo: #f7f8ff;
 }
 
-@media screen and (max-width: 480px) {
-  body {
-    padding: 20px;
-    background-color: var(--fundo);
-    font-family: var(--fonte);
-  }
+body {
+  padding: 20px;
+  background-color: var(--fundo);
+  font-family: var(--fonte);
 }
