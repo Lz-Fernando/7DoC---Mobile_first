@@ -1,5 +1,6 @@
 .agenda {
   background-color: var(--fundo);
+  padding: 0 20px;
 }
 
 .agenda-dia {
