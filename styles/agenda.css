@@ -11,14 +11,15 @@
 }
 
 .agenda-dia-titulo {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--preto);
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 
 .agenda-dia-card {
-  height: 170px;
+  height: auto;
+  max-width: 100%;
   border-radius: 8px;
   background-color: var(--branco);
   display: flex;
@@ -31,8 +32,9 @@
 }
 
 .agenda-dia-card-perfil-imagem {
-  width: 32px;
-  border-radius: 32px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
 }
 
 .agenda-dia-card-perfil-info {
@@ -44,13 +46,13 @@
 }
 
 .agenda-dia-card-perfil-info-nome {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   color: var(--preto);
 }
 
 .agenda-dia-card-perfil-info-tipo {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
   color: var(--cinza);
 }
@@ -78,28 +80,30 @@
 }
 
 .agenda-dia-card-conteudo-tempo {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   color: var(--preto);
 }
 
 .agenda-dia-remota-conteudo-botoes {
   display: flex;
+  justify-content: space-around;
   gap: 25px;
 }
 
 .agenda-dia-remota-conteudo-botoes-video,
 .agenda-dia-remota-conteudo-botoes-audio {
-  width: 139px;
+  width: 100%;
+  max-width: 300px;
   padding: 1.2em;
   border-radius: 8px;
+  font-size: 0.875rem;
 }
 
 .agenda-dia-remota-conteudo-botoes-video {
   background-color: var(--laranja);
   border: none;
   color: var(--branco);
-  font-size: 14px;
   font-weight: 500;
 }
 
@@ -126,17 +130,17 @@
   position: absolute;
   top: 80%;
   left: 79%;
-  height: 70px;
-  width: 70px;
-  border-radius: 56px;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
   border: none;
   background-color: var(--azul);
-  box-shadow: 0 0 10px var(--azul);
+  box-shadow: 0 0 0.625rem var(--azul);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .btn-Adicionar img {
-  width: 20px;
+  width: 1.25rem;
 }
