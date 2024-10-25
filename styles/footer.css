@@ -2,8 +2,9 @@ footer {
   height: 10%;
   width: 100%;
   background-color: var(--branco);
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 15px black;
   border-radius: 12px;
+  position: absolute;
 }
 
 ul {

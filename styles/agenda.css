@@ -121,3 +121,22 @@
   border-radius: 8px;
   padding: 1.2em;
 }
+
+.btn-Adicionar {
+  position: absolute;
+  top: 80%;
+  left: 79%;
+  height: 70px;
+  width: 70px;
+  border-radius: 56px;
+  border: none;
+  background-color: var(--azul);
+  box-shadow: 0 0 10px var(--azul);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-Adicionar img {
+  width: 20px;
+}
