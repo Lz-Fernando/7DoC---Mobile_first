@@ -17,6 +17,13 @@
   padding: 0.625rem 0;
 }
 
+.agenda-dia-seção {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px 0 20px 0;
+}
+
 .agenda-dia-card {
   height: auto;
   max-width: 100%;
@@ -143,4 +150,22 @@
 
 .btn-Adicionar img {
   width: 1.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .agenda-dia-seção {
+    display: grid;
+    grid-template-columns: 460px 460px;
+    justify-content: space-evenly;
+    row-gap: 25px;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .agenda-dia-seção {
+    display: grid;
+    grid-template-columns: 520px 520px 520px;
+    justify-content: space-evenly;
+    row-gap: 60px;
+  }
 }
